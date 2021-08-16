@@ -98,7 +98,8 @@ app.layout = dbc.Container(
                         500000: '$500K'
                     },
                     value = 150000,
-                    tooltip = {"always_visible" : False, "placement" : "top"}
+                    tooltip = {"always_visible" : False, "placement" : "top"},
+                    updatemode="drag"
                 )
             ]),
 
@@ -126,7 +127,8 @@ app.layout = dbc.Container(
                         35: '35%'
                     },
                     value = 15,
-                    tooltip = {"always_visible" : False, "placement" : "top"}
+                    tooltip = {"always_visible" : False, "placement" : "top"},
+                    updatemode="drag"
                 )
             ]),
         ])
