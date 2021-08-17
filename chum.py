@@ -15,6 +15,7 @@ external_stylesheets = [dbc.themes.COSMO]
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
+app.title = "Chum"
 
 valuation_card = dbc.Card(   
     [
